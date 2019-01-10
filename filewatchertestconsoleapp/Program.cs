@@ -11,7 +11,9 @@ namespace FileWatcherTestConsoleApp
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("App Start");
             Watcher.StartWatcher("C:/TestTEC/Source");
+            Console.ReadKey(true);
         }
 
         
